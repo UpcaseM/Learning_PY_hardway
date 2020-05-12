@@ -21,7 +21,7 @@ class MyTurtle(turtle.Turtle):
     def __init__(self,
                  life=100,
                  speed=2,
-                 pond_size=[500, 500]):
+                 pond_size=(500, 500)):
         """
         Init a MyTurtle class with life, speed of the turtle and the pond size.
 
@@ -127,7 +127,7 @@ class Fish(turtle.Turtle):
     lst_size = ['small', 'medium', 'large']
 
     def __init__(self,
-                 pond_size=[500, 500]):
+                 pond_size=(500, 500)):
         """
         Init a fish object.
 
@@ -224,7 +224,7 @@ class pond:
     def __init__(self,
                  my_turtle,
                  lst_fish,
-                 pond_size=[500, 500],
+                 pond_size=(500, 500),
                  num_fish=10):
         """
         Init the pond with the size of the pond and
@@ -268,7 +268,8 @@ class pond:
         wd.bgcolor('#8dcbe3')
         wd.setup(width=1200, height=1200)
         # Init the position of the turtle.
-        self.turtle.goto(t.get_pos()[0], t.get_pos()[1])
+        self.turtle.goto(self.turtle.get_pos()[0],
+                         self.turtle.get_pos()[1])
         while True:
             # Game ends when turtle dies or no fish in the pond
             if len(self.lst_fish) == 0 or self.turtle.get_life() == 0:
@@ -307,6 +308,7 @@ if __name__ == '__main__':
     num_fishes = 10
     for i in range(num_fishes):
         lst_fish.append(Fish())
+    print(t.get_pos())
     # Init a pond
     p = pond(t, lst_fish)
     p.run()
