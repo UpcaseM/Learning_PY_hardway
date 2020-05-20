@@ -15,6 +15,7 @@ Learn python by turning quick thoughts to codes.
 2. [Trutle Game](mini_projects/turtle_game.py)			[show case](output/turtle_game.gif)
 3. [Snake Game](mini_projects/snake_game.py)			[show case](output/snake_game.gif)
 4. [Special Day - Single Dispatch](mini_projects/singledispatch_special_day.ipynb)
+5. [Polygon Sequence](mini_projects/polygon_sequence.ipynb)
 
 ## Algorithm.
 
@@ -28,5 +29,8 @@ Learn python by turning quick thoughts to codes.
 2. [Numeric Types](deep_dive/1_functional/1_numeric_types.ipynb)
 3. [Function Parameters](deep_dive/1_functional/2_function_parameters.ipynb)
 4. [First Class Functions](deep_dive/1_functional/3_first_class_functions.ipynb)
-5. [Scopes, Closures, and Decorators](deep_dive/1_functional/4_scopes_closures_decorators/ipynb)
+5. [Scopes, Closures, and Decorators](deep_dive/1_functional/4_scopes_closures_decorators.ipynb)
 
+**Part 2**
+
+1. [Iteration and Generators](deep_dive/2_iteration_generators/0_sequences.ipynb)
