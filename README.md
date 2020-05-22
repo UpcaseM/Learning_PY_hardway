@@ -33,4 +33,7 @@ Learn python by turning quick thoughts to codes.
 
 **Part 2**
 
-1. [Iteration and Generators](deep_dive/2_iteration_generators/0_sequences.ipynb)
+1. [Sequences](deep_dive/2_iteration_generators/0_sequences.ipynb)
+2. [Iterators and Iterables](deep_dive/2_iteration_generators/1_iterators_iterables.ipynb)
+3. [Generators](deep_dive/2_iteration_generators/2_generators.ipynb)
+4. [Generator Project](deep_dive/2_iteration_generators/3_generator_project.ipynb)
