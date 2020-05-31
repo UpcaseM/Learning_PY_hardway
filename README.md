@@ -37,3 +37,8 @@ Learn python by turning quick thoughts to codes.
 2. [Iterators and Iterables](deep_dive/2_iteration_generators/1_iterators_iterables.ipynb)
 3. [Generators](deep_dive/2_iteration_generators/2_generators.ipynb)
 4. [Generator Project](deep_dive/2_iteration_generators/3_generator_project.ipynb)
+5. [Iteration Tools](deep_dive/2_iteration_generators/4_iteration_tools.ipynb)
+6. [Context Managers](deep_dive/2_iteration_generators/5_context_managers.ipynb)
+7. [Generators as Coroutines](deep_dive/2_iteration_generators/6_generators_as_coroutines.ipynb)
+8. [Pipline Project](deep_dive/2_iteration_generators/7_pipline_project.ipynb)
+
